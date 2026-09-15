@@ -63,6 +63,7 @@ function LandingPage() {
           </Link>
           <Link
             to="/auth"
+            search={{ redirect: undefined }}
             className="inline-flex items-center justify-center rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:opacity-90"
           >
             Sign in / 登入
