@@ -97,6 +97,7 @@ function LandingPage() {
           <div className="reveal mt-10">
             <Link
               to="/auth"
+              search={{ redirect: undefined }}
               className="inline-flex items-center justify-center rounded-xl bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground shadow-lg transition hover:opacity-90"
             >
               Sign in / 登入
